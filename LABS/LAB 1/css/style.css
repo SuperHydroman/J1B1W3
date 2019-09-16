@@ -1,0 +1,38 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #61a4a3;
+    border: 2px solid black;
+    padding: 15px;
+    /*height: 698px;*/
+    overflow: auto;
+}
+
+html, body {
+    background-color: #75c3c2;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 110%;
+}
+
+body>h1 {
+    text-align: center;
+}
+
+img[src="../images/vloot1.jpg"] {
+    float: left;
+    padding-right: 15px;
+}
+
+img[src="../images/vloot2.jpg"] {
+    float: right;
+    padding-left: 10px;
+}
+img[src="../images/vloot3.jpg"] {
+    float: left;
+    padding: 15px 15px 0px 0px;
+}
+#paragraph2 {
+    margin-bottom: 0px;
+}
