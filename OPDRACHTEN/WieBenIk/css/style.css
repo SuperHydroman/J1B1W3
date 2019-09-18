@@ -1,0 +1,106 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("../img/RL-wallpaper.jpg") grey fixed;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 11px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 800px;
+    border-radius: 7px;
+    -webkit-box-shadow: 15px 15px 14px 0px rgba(0,0,0,0.53);
+    -moz-box-shadow: 15px 15px 14px 0px rgba(0,0,0,0.53);
+    box-shadow: 15px 15px 14px 0px rgba(0,0,0,0.53);
+}
+
+ul>li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul>li>a {
+    color: black!important;
+}
+
+.current {
+    font-weight: bolder;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 140px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 1000px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.informationContainer {
+    padding-left: 30px;
+    width: 700px;
+}
+
+.informationContainer>p {
+    font-size: 110%;
+}
+
+#navbarMostLeft {
+    margin-left: 10px;
+}
+
+#searchBar {
+    border-color: #28a745;
+    transition: ease-in-out 1s;
+    width: 200px;
+}
+
+#searchBar:focus {
+    width: 350px;
+    background-color: #28a745;
+    color: white;
+}
+
+img[src="../img/profile_picture.jpg"] {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    right: 520px;
+    top: 150px;
+    border: 5px solid white;
+}
+
+img[src="../img/welcome.png"], img[src="../img/aboutMe.png"], img[src="../img/motivatie.png"] {
+    width: 700px;
+    position: fixed;
+    top: 64%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+img[src="../img/career.png"] {
+    width: 300px;
+    position: fixed;
+    top: 72%;
+    left: 67%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
